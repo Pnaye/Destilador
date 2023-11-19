@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+header {
+    background-color: #D71313;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.styled-button {
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #45474B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Agregado para transición suave */
+}
+
+.styled-button:hover {
+    background-color: #27ae60; /* Cambia el color al pasar el ratón */
+}
+
+.contenedor-imagen {
+    margin-top: 20px;
+    display: none; /* Inicialmente oculto */
+}
+
+/* Nueva regla CSS para mantener la altura fija del contenedor de la segunda imagen */
+
+/* #imagenContainer2 {
+    max-height: 400px;
+    overflow: hidden;
+} */
+
+#imagenContainer3 {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 50%; /* Reducir a la mitad el tamaño de la imagen */
+    max-height: 400px;
+    margin-top: 10px;
+}
